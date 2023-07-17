@@ -1,0 +1,69 @@
+.content{
+    width:60%;
+    float:left;
+    padding: 0 0 0 30px;
+    background: rgb(136, 219, 215);
+    height: 100%;
+}
+.sidebar{
+    width: 40%;
+    float: right;
+    padding: 10px;
+    background: darkblue;
+    height: 100%;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    border-bottom: 3px solid darkblue ;
+    padding-bottom: 10px;
+    color: darkblue;
+    background-color: rgb(219, 240, 126);
+    
+}
+body{
+    background: rgb(136, 219, 215);
+}
+#date{
+    color: darkred;
+    font-size: 12px;
+    font-style: italic;
+}
+input{
+    background: blue;
+    color: rgb(255, 255, 255);
+}
+input,textarea{
+    background: blue;
+    color: white;
+}
+#ch{
+    color: red;
+    font-style: italic;
+    border-bottom: 1px solid orangered;
+    background-color: rgb(227, 227, 65);
+}
+#pcount{
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+}
+#ln{
+    color: yellow;
+}
+#cmt{
+    color: rgb(165, 240, 130);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 {
+    margin-right: 160px;  /* Adjust the value as needed */
+}
+.horizontal-line {
+    border-top: 8px solid darkblue; 
+    filter: brightness(100000%)
+}
